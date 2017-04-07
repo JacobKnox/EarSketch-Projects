@@ -1,0 +1,19 @@
+#		python code
+#		script_name:
+#
+#		author:
+#		description:
+#
+
+from earsketch import *
+
+init()
+setTempo(120)
+
+fitMedia(Y07_DRUM_SAMPLE, 1, 1, 5)
+fitMedia(YG_FUNK_BRASS_1, 2, 3, 20)
+fitMedia(YG_FUNK_CLAP_1, 3, 5, 15)
+fitMedia(YG_FUNK_FUNK_GUITAR_1, 4, 15, 25)
+fitMedia(YG_FUNK_ELECTRIC_PIANO_1, 5, 9, 15)
+
+finish()
